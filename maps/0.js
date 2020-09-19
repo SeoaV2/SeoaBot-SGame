@@ -1,5 +1,5 @@
 function onMove (solve, player) {
-  if (player.sg_x === 0) {
+  if (player.sg_y === 0) {
     solve()
   }
 }
